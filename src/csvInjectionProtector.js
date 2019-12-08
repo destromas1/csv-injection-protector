@@ -1,14 +1,14 @@
 const csvInjectionProtector = str => {
-    if (!text) return "";
+    if (!str) return "";
 
     const riskyChars = ["=", "+", "-", "@"];
 
-    const firstChar = text.charAt(0);
+    const firstChar = str.charAt(0);
     const isInjected = riskyChars.includes(firstChar);
 
-    if (isInjected) return text.slice(1);
+    if (isInjected) return str.slice(1);
 
-    return text;
+    return str;
 };
 
 export { csvInjectionProtector };
