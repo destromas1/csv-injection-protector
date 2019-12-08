@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/destromas1/csv-injection-protector/issues"
   },
-  "homepage": "https://github.com/destromas1/csv-injection-protector#readme"
+  "homepage": "https://github.com/destromas1/csv-injection-protector#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2"
+  }
 }
