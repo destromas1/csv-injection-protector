@@ -1,0 +1,19 @@
+{
+  "name": "csv-injection-protector",
+  "version": "1.0.0",
+  "description": "csv-injection-protector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/destromas1/csv-injection-protector.git"
+  },
+  "author": "stalukdar <stalukdar@team.mobile.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/destromas1/csv-injection-protector/issues"
+  },
+  "homepage": "https://github.com/destromas1/csv-injection-protector#readme"
+}
