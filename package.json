@@ -1,7 +1,7 @@
 {
   "name": "csv-injection-protector",
   "version": "1.1.0",
-  "description": "csv-injection-protector",
+  "description": "Utility Library to save your CSV file from injection",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/destromas1/csv-injection-protector.git"
   },
-  "author": "stalukdar <stalukdar@team.mobile.de>",
+  "author": "destromas1 <Shahjada Talukdar>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/destromas1/csv-injection-protector/issues"
