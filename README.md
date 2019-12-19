@@ -22,3 +22,15 @@ const sanitizedString = csvInjectionProtector(riskyString);
 console.log(sanitizedString);
 // "Risky string for CSV"
 ```
+
+# Contribution
+
+`git clone https://github.com/destromas1/csv-injection-protector.git`
+
+`npm i`
+
+`npm test`
+
+`npm run build`
+
+Feel free to add more cases and PRs are welcome!
