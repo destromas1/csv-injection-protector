@@ -6,9 +6,11 @@ const csvInjectionProtector = str => {
     const firstChar = str.charAt(0);
     const isInjected = riskyChars.includes(firstChar);
 
-    if (isInjected) return str.slice(1);
+    if(!isInjected) return str;
 
-    return str;
+    const slicedStr = str.slice(1);
+
+    return csvInjectionProtector(slicedStr);
 };
 
 export { csvInjectionProtector };
