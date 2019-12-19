@@ -14,6 +14,7 @@
   },
   "author": "destromas1 <Shahjada Talukdar>",
   "license": "MIT",
+  "keywords": ["csv", "csv-injection", "injection"],
   "bugs": {
     "url": "https://github.com/destromas1/csv-injection-protector/issues"
   },
