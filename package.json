@@ -1,6 +1,6 @@
 {
   "name": "csv-injection-protector",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Utility Library to save your CSV file from injection",
   "main": "index.js",
   "scripts": {
