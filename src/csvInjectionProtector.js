@@ -1,7 +1,7 @@
+import riskyChars from "./riskyChars";
+
 const csvInjectionProtector = str => {
     if (!str) return "";
-
-    const riskyChars = ["=", "+", "-", "@"];
 
     const firstChar = str.charAt(0);
     const isInjected = riskyChars.includes(firstChar);
