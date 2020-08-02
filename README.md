@@ -34,3 +34,5 @@ console.log(sanitizedString);
 `npm run build`
 
 Feel free to add more cases and PRs are welcome!
+
+// Test Commit
